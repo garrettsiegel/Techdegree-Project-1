@@ -138,8 +138,10 @@ function randomRGBValue() {
 randomRGBValue();
 //TIMER INTERVAL AUTO-CHANGING BACKGROUND COLOR EVERY 5.5 SECONDS
 setInterval(randomRGBValue, 5500);
+//SETS RANDOM COLOR CHANGE UPON BUTTON CLICK
+document.getElementById('loadQuote').addEventListener("click", randomRGBValue, false);
 
 
 //DO NOT MAKE ANY CHANGES TO CODE BELOW THIS COMMENT
 //SHOW ANOTHER QUOTE BUTTON CLICK LISTENER
-//document.getElementById('loadQuote').addEventListener("click", printQuote, false);
+document.getElementById('loadQuote').addEventListener("click", printQuote, false);
