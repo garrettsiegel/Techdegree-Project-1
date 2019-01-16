@@ -70,10 +70,8 @@ var quotes = [
 function getRandomQuote(quotes){
   //GENERATES RANDOM NUMBER FROM LENGTH OF OBJECTS IN QUOTES ARRAY
   var randomNumber = Math.floor(Math.random() * quotes.length);
-  //USES RANDOM NUMBER TO GRAB ITEM FROM QUOTES ARRAY
-  var randomQuote = quotes[randomNumber];
-  //RETURNS ABOVE ITEM
-  return randomQuote;
+  //RETURNS RANDOM QUOTES ARRAY NUMBER
+  return quotes[randomNumber];
 };
 
 
